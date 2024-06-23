@@ -39,6 +39,7 @@ export default {
 						:key="social.id"
 						:href="social.url"
 						target="__blank"
+						:title="social.name"
 						class="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-500"
 					>
 						<i

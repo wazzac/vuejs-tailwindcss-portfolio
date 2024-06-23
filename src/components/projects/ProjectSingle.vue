@@ -6,7 +6,8 @@ export default {
 
 <template>
 	<router-link
-		to="/projects/single-project"
+		:to="project.externalLink"
+		target="_blank"
 		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
 		aria-label="Single Project"
 	>
@@ -24,9 +25,10 @@ export default {
 				{{ project.title }}
 			</p>
 			<span
-				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
+				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light italic"
 				>{{ project.category }}</span
 			>
+			<p class="text-left text-ternary-dark dark:text-ternary-light mt-2">{{ project.description }}</p>
 		</div>
 	</router-link>
 </template>
