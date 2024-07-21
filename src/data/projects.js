@@ -4,7 +4,7 @@
 const projects = [
     {
         id: 1,
-        title: "Dom Translate",
+        title: "Laravel Translate",
         category: "Laravel Package",
         img: require("@/assets/images/github-domtranslate.jpg"),
 		description: "The Laravel Auto-Translation Package enables seamless multilingual support by allowing you to define phrases for automatic translation within your Laravel application. Using a built-in Blade directive, you can easily mark phrases that need translation before they are displayed to the user. This package simplifies multi-language management.",

@@ -78,12 +78,12 @@ export default {
 	<nav id="nav" class="sm:container sm:mx-auto">
 		<!-- Header start -->
 		<div
-			class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6"
+			class="z-10 block max-w-screen-lg my-6 xl:max-w-screen-xl sm:flex sm:justify-between sm:items-center"
 		>
 			<!-- Header menu links and small screen hamburger menu -->
-			<div class="flex justify-between items-center px-4 sm:px-0">
+			<div class="flex items-center justify-between px-4 sm:px-0">
 				<!-- Header logos -->
-				<div>
+				<!-- <div>
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
@@ -98,7 +98,7 @@ export default {
 							alt="Light Logo"
 						/>
 					</router-link>
-				</div>
+				</div> -->
 
 				<!-- Theme switcher small screen -->
 				<theme-switcher
@@ -118,7 +118,7 @@ export default {
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"
-							class="h-7 w-7 fill-current text-secondary-dark dark:text-ternary-light"
+							class="fill-current h-7 w-7 text-secondary-dark dark:text-ternary-light"
 						>
 							<path
 								v-if="isOpen"
@@ -141,7 +141,7 @@ export default {
 
 			<!-- Header right section buttons -->
 			<div
-				class="hidden sm:flex justify-between items-center flex-col md:flex-row"
+				class="flex-col items-center justify-between hidden sm:flex md:flex-row"
 			>
 				<!-- Hire me button -->
 				<!-- <div class="hidden md:block">
@@ -158,7 +158,7 @@ export default {
 				<theme-switcher
 					:theme="theme"
 					@themeChanged="updateTheme"
-					class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
+					class="px-3 py-2 ml-8 shadow-sm cursor-pointer bg-primary-light dark:bg-ternary-dark rounded-xl"
 				/>
 			</div>
 		</div>
