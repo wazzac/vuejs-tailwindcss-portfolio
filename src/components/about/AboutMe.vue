@@ -29,7 +29,7 @@ export default {
     <div class="block mt-10 sm:flex sm:gap-10 sm:mt-20">
         <!-- About profile image -->
         <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
-            <img src="@/assets/images/profile/profilewc.png" class="rounded-2xl w-96" alt="" />
+            <img src="@/assets/images/profile/profilewc.jpg" class="rounded-2xl w-96" alt="" />
         </div>
 
         <!-- About details -->
