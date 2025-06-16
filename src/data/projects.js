@@ -12,7 +12,7 @@ const projects = [
     },
     {
         id: 2,
-        title: "Synchronize Model to Crm",
+        title: "Laravel CRM Sync",
         category: "Laravel Package",
         img: require("@/assets/images/github-syncmodeltocrm.png"),
 		description: "Laravel CRM Sync is a powerful package designed to seamlessly integrate and synchronize your Laravel models with multiple CRM systems. This package allows you to define specific model properties that will automatically synchronize with configured CRMs such as HubSpot and PipeDrive, across different environments (e.g., Sandbox, Production).",
