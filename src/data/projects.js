@@ -17,6 +17,14 @@ const projects = [
         img: require("@/assets/images/github-syncmodeltocrm.png"),
 		description: "Laravel CRM Sync is a powerful package designed to seamlessly integrate and synchronize your Laravel models with multiple CRM systems. This package allows you to define specific model properties that will automatically synchronize with configured CRMs such as HubSpot and PipeDrive, across different environments (e.g., Sandbox, Production).",
 		externalLink: "https://github.com/wazzac/sync-model-to-crm",
+    },
+    {
+        id: 3,
+        title: "Laravel DB Encryptoy",
+        category: "Laravel Package",
+        img: require("@/assets/images/github-db-encryptor.png"),
+        description: "A Laravel package for secure, transparent encryption and decryption of sensitive model attributes, storing them in a dedicated table while keeping your main tables clean and fast.",
+        externalLink: "https://github.com/wazzac/laravel-db-encryption",
     }
 ];
 
